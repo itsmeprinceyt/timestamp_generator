@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
-const SITE_URL: string = "https://timestamp.itsmeprince.com";
+const SITE_URL: string = "https://prince-timestamp-generator.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
