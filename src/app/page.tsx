@@ -36,7 +36,7 @@ export default function TimestampGeneratorPage() {
     if (!timestamp) return;
     await navigator.clipboard.writeText(timestamp);
     setCopied(true);
-    toast.success("COPIED TO BUFFER");
+    toast.success("Timestamp Copied!");
     setTimeout(() => setCopied(false), 1500);
   };
 
